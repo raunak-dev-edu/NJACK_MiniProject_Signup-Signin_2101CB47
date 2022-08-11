@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njack-Signin/Signup</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+    <div class="title-text">
+      <div class="title login">Signin Form</div>
+      <div class="title signup">Signup Form</div>
+    </div>
+    <div class="form-container">
+      <div class="slide-controls">
+        <input type="radio" name="slide" id="login" checked>
+        <input type="radio" name="slide" id="signup">
+        <label for="login" class="slide login">Signin</label>
+        <label for="signup" class="slide signup">Signup</label>
+        <div class="slider-tab"></div>
+      </div>
+      <div class="form-inner">
+        <form action="#" class="login" id="signin-form">
+          <div class="field">
+            <input type="text" id="Username" autocomplete="off" placeholder="Username" required>
+          </div>
+          <div class="field">
+            <input type="password" id="Password" autocomplete="off" placeholder="Password" required>
+          </div>
+          <div class="pass-link"><a href="#">Forgot password?</a></div>
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Login">
+          </div>
+          <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+        </form>
+        <form action="#" class="signup" id="reg-form">
+          <div class="field">
+            <input type="text" id ="username" autocomplete="off" placeholder="Username" required>
+          </div>
+          <div class="field">
+            <input type="tel" id="phoneNumber" autocomplete="off" placeholder="Phone Number" required>
+          </div>
+          <div class="field">
+            <input type="password" id="password" autocomplete="off" placeholder="Password" required>
+          </div>
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Signup">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="design.js"></script>
+  <script src="signup.js"></script>
+  <script src="signin.js"></script>
+
+</body>
+</html>
